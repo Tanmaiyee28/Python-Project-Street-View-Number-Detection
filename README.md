@@ -48,25 +48,25 @@ SVT: Street View Text Dataset
 
 1.First we have to load the dataset and read the first image using imread() and print the shape and type of the image .
 
-2. Scale the images to right size (300) dots per inch if the image size is less it will be unclear to predict. 
+2.Scale the images to right size (300) dots per inch if the image size is less it will be unclear to predict. 
 
-3. Then we have to binarize the image, it converts the image to black and white.
+3.Then we have to binarize the image, it converts the image to black and white.
 
-4.  Blur the image for smoothing the image .
+4.Blur the image for smoothing the image .
 
-5. Then we perform thresholding using cv2.threashold ().
+5.Then we perform thresholding using cv2.threashold ().
 
-6. First we have performed global threshold then applied gaussian filtering for removing the noise. 
+6.First we have performed global threshold then applied gaussian filtering for removing the noise. 
 
-7. Then applied the adaptive threshold.
+7.Then applied the adaptive threshold.
 
-8. Finally filtered the image with 5*5 gaussian kernel to remove the noise.
+8.Finally filtered the image with 5*5 gaussian kernel to remove the noise.
 
 9.Detected the edges of the image using cv2.Canny() and then plotted the both the images the original and the images with only edges.
 
 ### OUTPUTS:
 
-10. Printed the images after pre-processing the image.
+10.Printed the images after pre-processing the image.
 
 ### Work Sharing between Teammates:
 
