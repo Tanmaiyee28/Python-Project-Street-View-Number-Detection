@@ -1,4 +1,4 @@
-# Optical Character Recoginition-Street View text detection
+# Optical Character Recoginition 
 
 ## Increment-3
 
@@ -43,5 +43,63 @@ SVT: Street View Text Dataset
 4.Training set: 100 images: 211 words. 
 
 5.Testing set: 250 images: 514 words. 
+
+### Working Screens from the Project:
+
+1.First we have to load the dataset and read the first image using imread() and print the shape and type of the image .
+
+2. Scale the images to right size (300) dots per inch if the image size is less it will be unclear to predict. 
+
+3. Then we have to binarize the image, it converts the image to black and white.
+
+4.  Blur the image for smoothing the image .
+
+5. Then we perform thresholding using cv2.threashold ().
+
+6. First we have performed global threshold then applied gaussian filtering for removing the noise. 
+
+7. Then applied the adaptive threshold.
+
+8. Finally filtered the image with 5*5 gaussian kernel to remove the noise.
+
+9.Detected the edges of the image using cv2.Canny() and then plotted the both the images the original and the images with only edges.
+
+### OUTPUTS:
+
+10. Printed the images after pre-processing the image.
+
+### Work Sharing between Teammates:
+
+Chaitanya Jakka: Data Pre-processing and Implementation of Model 1.
+
+Naga Tanmaiyee Nagalla: Implementation of Model 1 and Model 2.
+
+Venkata Sreesudha Madabhushi: Implementation of Model 2 and Model 3. 
+
+All the members are contributing equally to every aspect of the project.
+
+### Issues/Blockages with the Project:
+
+1.Training the model
+
+2.Image Pre-processing
+
+
+### References:
+
+1.https://towardsdatascience.com/a-gentle-introduction-to-ocr-ee1469a201aa
+
+2.https://ieeexplore.ieee.org/document/6836618
+
+3.https://en.wikipedia.org/wiki/Optical_character_recognition
+
+4.https://searchcontentmanagement.techtarget.com/definition/OCR-optical-character-recognition
+
+5.https://arxiv.org/abs/1704.03155v2
+
+6.https://github.com/JaidedAI/EasyOCR
+
+
+
 
 
