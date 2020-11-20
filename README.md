@@ -48,6 +48,8 @@ SVT: Street View Text Dataset
 
 1.First we have to load the dataset and read the first image using imread() and print the shape and type of the image .
 
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-text-detection/blob/main/Documentation/1.PNG)
+
 2.Scale the images to right size (300) dots per inch if the image size is less it will be unclear to predict. 
 
 3.Then we have to binarize the image, it converts the image to black and white.
@@ -62,11 +64,26 @@ SVT: Street View Text Dataset
 
 8.Finally filtered the image with 5*5 gaussian kernel to remove the noise.
 
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-text-detection/blob/main/Documentation/2.PNG)
+
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-text-detection/blob/main/Documentation/3.PNG)
+
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-text-detection/blob/main/Documentation/4.PNG)
+
+
 9.Detected the edges of the image using cv2.Canny() and then plotted the both the images the original and the images with only edges.
+
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-text-detection/blob/main/Documentation/5.PNG)
 
 ### OUTPUTS:
 
 10.Printed the images after pre-processing the image.
+
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-text-detection/blob/main/Documentation/output.PNG)
+
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-text-detection/blob/main/Documentation/output2.PNG)
+
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-text-detection/blob/main/Documentation/output3.PNG)
 
 ### Work Sharing between Teammates:
 
@@ -78,11 +95,6 @@ Venkata Sreesudha Madabhushi: Implementation of Model 2 and Model 3.
 
 All the members are contributing equally to every aspect of the project.
 
-### Issues/Blockages with the Project:
-
-1.Training the model
-
-2.Image Pre-processing
 
 
 ### References:
