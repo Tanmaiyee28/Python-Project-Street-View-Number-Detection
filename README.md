@@ -77,13 +77,7 @@ SVT: Street View Text Dataset
 
 ### OUTPUTS:
 
-10.Printed the images after pre-processing the image.
 
-![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-text-detection/blob/main/Documentation/output.PNG)
-
-![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-text-detection/blob/main/Documentation/output2.PNG)
-
-![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-text-detection/blob/main/Documentation/output3.PNG)
 
 ### Work Sharing between Teammates:
 
