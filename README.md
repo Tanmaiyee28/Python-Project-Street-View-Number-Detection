@@ -41,6 +41,40 @@ Training Set: 73257 digits
 Testing Set: 26032 digits
 Extra Set: 531131 digits (less complicated samples).
 
+### Outputs:
+
+## Preprocessing
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o1.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o2.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o3.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o4.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o5.png)
+## Model
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o6.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o7.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o8.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o9.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o10.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o11.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o12.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o13.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o14.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o15.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o16.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o17.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o18.png)
+![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-Number-Detection/blob/main/outputs/o19.png)
+
+### Conclusion:
+OCR has been implemented on the SVHN dataset using CNN and RNN models. The accuracy for OCR using CNN is much higher than the RNN model. RNN models are time-consuming compared to CNN and much complex. With better OCR tools, the world becomes a much safer and better place. 
+
+### Future scope:
+Scaling up the performance by trying various models and using various data augmentation techniques when noise is involved. AI is a fast-growing field and it will be a very important tool for future generations. OCR can be applied to the SVT dataset which is a much complex dataset. OCR can be used to provide location tracking services. 
+
+### Blockages:
+1.	We tried to implement OCR on Street View Text dataset which is unformatted data. 
+2.	Preprocessing was done successfully on the data but, we couldn’t complete the model fitting on the data. The execution process was really time-consuming, and we couldn’t display the results since detection and recognizing the text was complex.
+3.	We performed the OCR on the SVHN dataset, although the CNN model was performed reasonably well, we couldn’t improve the RNN model’s performance because of the time limit. 
 
 
 ### Work Sharing between Teammates:
