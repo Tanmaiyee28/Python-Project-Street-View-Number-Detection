@@ -22,70 +22,34 @@ documents into machine-readable formats. Word spotting is an essential component
 
 ### Problem Statement:
 
-Crimes are also part of the progression of modernization of the world. Solving these crimes is essential to save many lives. OCR can be useful in solving certain 
-crimes like kidnapping cases or missing cases for example. OCR can be used to track locations by extracting the information from the images in certain situations. Every day we see so many cases where it involves people missing. If by any chance there are any photos related to the crime, the OCR application can extract text from the images and helps to track their locations and find them in time if possible. Often these kinds of situations involve images from the wild, that is the information in the images is in the form of unstructured data, and it is hard to extract the text. 
+Geolocation and tracking services are much needed in the present world to make life easier and safer for humans where it involves a wide range of situations such as locating an address for postal services or crime case where tracking is an essential task to help the victims. 
+
+OCR can be used to track locations by extracting the information from the images in certain situations. Every day we see so many cases where it involves people missing. If by any chance there are any photos related to the crime, the OCR application can extract text from the images and helps to track their locations and find them in time if possible. Often these kinds of situations involve images from the wild, that is the information in the images is in the form of unstructured data, and it is hard to extract the text. 
 
 The main aim of this project is to build a robust OCR application to extract information from the digital pictures where the text is called “text in the wild”.
 
-Furthermore, this system can be performed in a real-world environment as well. Extracting texts from images has found numerous applications. Some of the applications are Passport recognition, automatic number plate recognition, converting handwritten texts to digital text, converting typed text to digital text, etc.
+Furthermore, this system can be performed in a real-world environment as well. OCR has various applications such as Passport recognition, automatic number plate recognition, Invoices recognition, credit card recognition, converting handwritten texts to digital text, and many more.
+
 
 
 ### Dataset:
 
-SVT: Street View Text Dataset
-
-1.The dataset consists of images collected from Google Street View
-
-2.Total no of images: 350 from 20 different cities. 
-
-3.Total no of labelled words: 725 words. 
-
-4.Training set: 100 images: 211 words. 
-
-5.Testing set: 250 images: 514 words. 
-
-### Working Screens from the Project:
-
-1.First we have to load the dataset and read the first image using imread() and print the shape and type of the image .
-
-![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-text-detection/blob/main/Documentation/1.PNG)
-
-2.Scale the images to right size (300) dots per inch if the image size is less it will be unclear to predict. 
-
-3.Then we have to binarize the image, it converts the image to black and white.
-
-4.Blur the image for smoothing the image .
-
-5.Then we perform thresholding using cv2.threashold ().
-
-6.First we have performed global threshold then applied gaussian filtering for removing the noise. 
-
-7.Then applied the adaptive threshold.
-
-8.Finally filtered the image with 5*5 gaussian kernel to remove the noise.
-
-![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-text-detection/blob/main/Documentation/2.PNG)
-
-![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-text-detection/blob/main/Documentation/3.PNG)
-
-![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-text-detection/blob/main/Documentation/4.PNG)
-
-
-9.Detected the edges of the image using cv2.Canny() and then plotted the both the images the original and the images with only edges.
-
-![alt text](https://github.com/Tanmaiyee28/Python-Project-Street-View-text-detection/blob/main/Documentation/5.PNG)
-
-### OUTPUTS:
+SVHN – Street View Housing Numbers. The dataset consists of real-word images of house numbers which were collected from Google Street View images. This is dataset is considered as an unformatted dataset since the numbers in the dataset are from natural scene images and this is real-world problem because it is hard to recognize the numbers.
+Features:
+Number of classes: 10 classes (0-10).
+Training Set: 73257 digits
+Testing Set: 26032 digits
+Extra Set: 531131 digits (less complicated samples).
 
 
 
 ### Work Sharing between Teammates:
 
-Chaitanya Jakka: Data Pre-processing and Implementation of Model 1.
+Chaitanya Jakka: Data Pre-processing and Video Presentation
 
-Naga Tanmaiyee Nagalla: Implementation of Model 1 and Model 2.
+Naga Tanmaiyee Nagalla: Implementation of Model 1 and Power point Presentation
 
-Venkata Sreesudha Madabhushi: Implementation of Model 2 and Model 3. 
+Venkata Sreesudha Madabhushi: Implementation of Model 2 and Report 
 
 All the members are contributing equally to every aspect of the project.
 
